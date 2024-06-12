@@ -1,4 +1,4 @@
-from scripts.input_functions_module import input_function_module
+from module_scripts.input_functions_module import input_function_module
 
 rule create_input:
     output: 'results/input.txt'
