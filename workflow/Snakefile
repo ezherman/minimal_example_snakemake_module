@@ -1,0 +1,14 @@
+from scripts.input_functions_main import input_function_all
+
+module minimal_module:
+    snakefile: "minimal_module/workflow/Snakefile"
+
+use rule create_intermediate from minimal_module
+
+rule out:
+    output: "results/output.txt"
+    input: "results/intermediate.txt"
+    shell: "touch {output}"
+
+rule all:
+    input: input_function_all
