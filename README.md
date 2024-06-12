@@ -6,21 +6,21 @@ This repository has the following directory structure:
 
 ```
 .
+.
+├── README.md
 └── workflow
     ├── minimal_module
     │   └── workflow
     │       ├── scripts
     │       │   ├── __init__.py
-    │       │   ├── input_functions_module.py
+    │       │   └── input_functions_module.py
     │       └── Snakefile
-    ├── rules
-    │   └── common.smk
     ├── scripts
     │   ├── __init__.py
-    │   ├── input_functions_main.py
+    │   └── input_functions_main.py
     └── Snakefile
 
-8 directories, 11 files
+5 directories, 7 files
 ```
 
 There is a main workflow and a module workflow. The latter is stored within `minimal_module`.
