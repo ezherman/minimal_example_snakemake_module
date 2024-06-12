@@ -1,5 +1,5 @@
 # Minimal example snakemake repository with a module
-Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.11.3 and additionally tested with Snakemake v7.28.3. 
+Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.14.0 and additionally tested with Snakemake v7.28.3. 
 
 # Overview of the workflow
 This repository has the following directory structure:
