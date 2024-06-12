@@ -6,7 +6,6 @@ This repository has the following directory structure:
 
 ```
 .
-.
 ├── README.md
 └── workflow
     ├── minimal_module
