@@ -1,5 +1,5 @@
 # Minimal example snakemake repository with a module
-Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.14.0 and additionally tested with Snakemake v7.28.3. The text below refers to the `main` branch. On this branch, the workflow runs due to renaming of the scripts directory in the `minimal_module/workflow` directory.
+Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.14.0 and additionally tested with Snakemake v7.28.3. The text below refers to the `main` branch. On the `renamed_script_directory` branch, the workflow runs due to renaming of the scripts directory in the `minimal_module/workflow` directory.
 
 # Overview of the workflow
 This repository has the following directory structure:
