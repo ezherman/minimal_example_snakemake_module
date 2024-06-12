@@ -1,26 +1,25 @@
 # Minimal example snakemake repository with a module
-Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.11.3 and additionally tested with Snakemake v7.28.3. 
+Repository to exemplify the issue when importing Python modules within Snakemake modules. This repository was created using Snakemake v8.14.0 and additionally tested with Snakemake v7.28.3. 
 
 # Overview of the workflow
 This repository has the following directory structure:
 
 ```
 .
+├── README.md
 └── workflow
     ├── minimal_module
     │   └── workflow
     │       ├── scripts
     │       │   ├── __init__.py
-    │       │   ├── input_functions_module.py
+    │       │   └── input_functions_module.py
     │       └── Snakefile
-    ├── rules
-    │   └── common.smk
     ├── scripts
     │   ├── __init__.py
-    │   ├── input_functions_main.py
+    │   └── input_functions_main.py
     └── Snakefile
 
-8 directories, 11 files
+5 directories, 7 files
 ```
 
 There is a main workflow and a module workflow. The latter is stored within `minimal_module`.
