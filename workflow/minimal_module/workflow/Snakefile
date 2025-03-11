@@ -1,3 +1,6 @@
+import sys
+print(sys.path)
+
 from module_scripts.input_functions_module import input_function_module
 
 rule create_input:
